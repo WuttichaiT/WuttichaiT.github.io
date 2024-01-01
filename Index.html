@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CDN link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <!-- Font Awesome kit link -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation menu -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Brad</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title">Hi, I'm Brad</h1>
+                    <p class="hero-subtitle">I'm a web developer and designer based in Bangkok, Thailand. I create beautiful and functional websites using HTML, CSS, and JavaScript.</p>
+                    <a href="#contact" class="btn btn-primary">Hire me</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/hero-image.jpg" alt="Hero image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About me section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/about-image.jpg" alt="About image" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="about-title">About me</h2>
+                    <p class="about-text">I'm a self-taught web developer and designer with a passion for creating beautiful and functional websites. I have a bachelor's degree in computer science from Chulalongkorn University and two years of experience working as a front-end developer at a digital agency.</p>
+                    <p class="about-text">I enjoy learning new technologies and frameworks to improve my skills and deliver high-quality products to my clients. Some of the technologies and frameworks that I use are Bootstrap, jQuery, React, and WordPress.</p>
+                    <p class="about-text">When I'm not coding, I like to travel, read books, and play video games.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="projects-title">Projects</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card">
+                        <img src="images/project-1.jpg" alt="Project 1" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">A landing page for a travel agency using HTML, CSS, and Bootstrap.</p>
+                            <a href="https://project-1.com" class="btn btn-primary">View website</a>
+                            <a href="https://github.com/brad/project-1" class="btn btn-secondary"><i class="fab fa-github"></i> View code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card">
+                        <img src="images/project-2.jpg" alt="Project 2" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">A portfolio website for a photographer using HTML, CSS, and jQuery.</p>
+                            <a href="https://project-2.com" class="btn btn-primary">View website</a>
+                            <a href="https://github.com/brad/project-2" class="btn btn-secondary"><i class="fab fa-github"></i> View code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card">
+                        <img src="images/project-3.jpg" alt="Project 3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">A blog website for a writer using HTML, CSS, and WordPress.</p>
+                            <a href="https://project-3.com" class="btn btn-primary">View website</a>
+                            <a href="https://github.com/brad/project-3" class="btn btn-secondary"><i class="fab fa-github"></i> View code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="contact-title">Contact me</h2>
+            <p class="contact-text">If you are interested in working with me, please fill out the form below and I will get back to you as soon as possible.</p>
+            <form class="contact-form" action="https://formspree.io/f/xaylqzqj" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label
